@@ -1,0 +1,12 @@
+[package]
+name = "pgbar"
+version = "0.1.0"
+description = "pgbar - A minimal progress bar written in rust 🦀"
+edition = "2021"
+authors = ["Achaq <hi@achaq.dev>"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+termion = "2.0.1"
