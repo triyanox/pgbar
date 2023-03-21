@@ -20,7 +20,7 @@ pub struct Style<'a> {
 /// # Usage
 ///
 /// ```rust
-/// use bgbar::{ProgressBar, Style};
+/// use pgbar::{ProgressBar, Style};
 /// use termion::color;
 ///
 /// let mut progress_bar = ProgressBar::new(100, 10, Style {
@@ -28,6 +28,7 @@ pub struct Style<'a> {
 ///    color: Some(&color::Cyan), // This is the color of the progress bar
 ///    width: 50, // This is the width of the progress bar
 ///    time_to_finish: true, // This is the time to finish the progress bar
+///    wrapper: String::from("[]"), // This is the wrapper of the progress bar
 /// });
 ///
 /// progress_bar.track(); // This will start the progress bar
