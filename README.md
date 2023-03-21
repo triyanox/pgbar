@@ -1,7 +1,7 @@
 # pgbar - A minimal progress bar written in rust 🦀
 
 [![Crates.io](https://img.shields.io/crates/v/pgbar.svg)](https://crates.io/crates/pgbar)
-[![Docs.rs](https://docs.rs/pgbar/badge.svg)](https://docs.rs/pgbar)
+
 
 ## Installation
 
