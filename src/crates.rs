@@ -7,6 +7,18 @@ use std::{
 };
 use termion::color::{self, Color};
 
+impl<'a> Default for Style<'a> {
+    fn default() -> Self {
+        Self {
+            symbol: "*".to_string(),
+            color: Some(&color::Cyan),
+            width: 50,
+            time_to_finish: true,
+            wrapper: "[]".to_string(),
+        }
+    }
+}
+
 impl ProgressBar<'_> {
     /// This is the constructor of the progress bar
     pub fn new(max: u32, max_time: u32, style: Style) -> ProgressBar {
