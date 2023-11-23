@@ -1,11 +1,11 @@
-# pgbar - A minimal progress bar written in rust 🦀
+# pgbar - A minimal progress bar written in rust
 
 [![Crates.io](https://img.shields.io/crates/v/pgbar.svg)](https://crates.io/crates/pgbar)
 ![Rust CI](https://github.com/triyanox/pgbar/workflows/Rust%20CI/badge.svg)
 
 This is a Rust library to create progress bars on terminal. It provides an easy way to track the progress of some task, allowing the user to customize its appearance and behavior.
 
-## 🎁 Installation
+## Installation
 
 Add this to your `Cargo.toml`:
 
@@ -14,7 +14,7 @@ Add this to your `Cargo.toml`:
 pgbar = "*"
 ```
 
-## 🧰 Usage
+## Usage
 
 To use the library, first import it on your Rust project:
 
@@ -52,7 +52,7 @@ Finally, to finish the progress bar, call the `finish()` method:
 pb.finish();
 ```
 
-## 🎨 Customization
+## Customization
 
 The progress bar can be customized with the following options:
 
@@ -77,7 +77,7 @@ let style = Style {
 let mut pb = ProgressBar::new(100, 10, style);
 ```
 
-## 🚀 Example
+## Example
 
 Here is a simple example showing how to use the progress bar library:
 
